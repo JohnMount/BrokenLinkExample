@@ -1,0 +1,19 @@
+---
+title: "README"
+output: github_document
+---
+
+Broken pkgdown link example.
+
+To reproduce.
+
+1) Create new project (this) in RStudio
+2) Create this README.Rmd file
+3) Edit DESCRIPTION file and .Rbuildignore
+3) Create directory and file extras/example.md
+4) knit README.Rmd
+5) Run pkgdown::build_site() in R.
+
+Observed: this link works in README.md but is broken in docs/index.html.
+Expected: link to work both places (i.e. not be re-written from *.md to *.html).
+
