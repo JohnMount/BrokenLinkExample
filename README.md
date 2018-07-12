@@ -16,3 +16,5 @@ To reproduce.
 Observed: this link <https://github.com/JohnMount/BrokenLinkExample/blob/master/extras/Untitled.md> works in [README.md](https://github.com/JohnMount/BrokenLinkExample/blob/master/README.md) but is broken in [docs/index.html](https://johnmount.github.io/BrokenLinkExample/).
 
 Expected: link to work both places (i.e. not be re-written from *.md to *.html).
+
+A work-around is to relpace ".md" with "%2Emd" to hide the links from the processor.
